@@ -1,4 +1,4 @@
-public class assignment_1 {
+public class Q_1 {
 	public static void main(String[] args) {
 		int a = Integer.parseInt(args[0]);
         if (a>2){
