@@ -2,7 +2,7 @@ public class Q_1 {
 	public static void main(String[] args) {
 		int a = Integer.parseInt(args[0]);
 		if (a>2){
-			System.out.println("The positive integer greater than 2 is: "+a);
+			System.out.println("The positive integer greater than 2 from command line argument is: "+a);
 		}
 		else {
 			System.out.println("Invalid input. Please enter a number greater than 2");
