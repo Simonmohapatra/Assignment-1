@@ -9,9 +9,8 @@ public class Q_7{
         for (int i=0; i<l; i++){
             arr[i]= sc.nextInt();
         }
+        
         int max=arr[0];
-        int min=arr[0];
-
         int maxCount=0, maxPosition=0;
         for (int i=0; i<l; i++){
             if (arr[i]>max) {
@@ -27,6 +26,7 @@ public class Q_7{
         System.out.println("Maximum element of array is "+max+" and occurs "+maxCount+" times.");
         System.out.println("First occurence of maximum element is at position "+maxPosition);
 
+        int min=arr[0];
         int minCount=0, minPosition=0;
         for (int i=0; i<l; i++){
             if (arr[i]<min) {
