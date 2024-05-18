@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class assignment_1 {
+public class Q_8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of Row and Columns of 2D-Array: ");
