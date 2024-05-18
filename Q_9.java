@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class assignment_1 {
+public class Q_9 {
     public static double sumMajorDiagonal(double[][] m){
         double sum=0;
         for (int i=0; i<4; i++){
