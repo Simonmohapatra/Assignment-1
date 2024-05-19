@@ -6,7 +6,7 @@ public class HQ_1 {
         int a = sc.nextInt();
         int b= sc.nextInt();
         int c= sc.nextInt();
-        if(a+b==c && a==b-c && a*b==c){
+        if(a+b==c || a==b-c || a*b==c){
             System.out.println("The numbers can be used in a correct arithmetic formula ");
         }
         else {
