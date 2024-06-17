@@ -36,7 +36,7 @@ public class HQ_5 {
                 }
                 if (count2>maxColCount){
                     maxColCount=count2;
-                    maxColIndex=i;
+                    maxColIndex=j;
                 }
             }
         }
