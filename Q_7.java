@@ -9,35 +9,30 @@ public class Q_7{
         for (int i=0; i<l; i++){
             arr[i]= sc.nextInt();
         }
-        
         int max=arr[0];
-        int maxCount=0, maxPosition=0;
-        for (int i=0; i<l; i++){
+        int min=arr[0];
+
+        int maxCount=1, maxPosition=0;
+        for (int i=1; i<l; i++){
             if (arr[i]>max) {
                 max=arr[i];
-                maxPosition=i+1;
+                maxPosition=i;
             }
-        }
-        for (int i=0; i<l; i++){
-            if (arr[i]==max){
+            else if (arr[i]==max){
                 maxCount++;
             }
         }
+
         System.out.println("Maximum element of array is "+max+" and occurs "+maxCount+" times.");
         System.out.println("First occurence of maximum element is at position "+maxPosition);
 
-        int min=arr[0];
-        int minCount=0, minPosition=0;
-        for (int i=0; i<l; i++){
+        int minCount=1, minPosition=0;
+        for (int i=1; i<l; i++){
             if (arr[i]<min) {
                 arr[i] = min;
-                minPosition=i+1;
-            }
-        }
-        for (int i=0; i<l; i++){
-            if (arr[i]==min){
+            } else if (arr[i]==min) {
                 minCount++;
-                minPosition=i+1;
+                minPosition=i;
             }
         }
         System.out.println("Minimum element of array is "+min+" and occurs "+minCount+" times.");
